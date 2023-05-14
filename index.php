@@ -38,7 +38,7 @@
 <body class="text-center float-center" style="background-color: #E6E6E6; background-image: url(assets/background.png); background-position: center;  background-repeat: no-repeat;">
 	<section class="content">
 		<div class="container">
-			<div class="row">
+			<div class="rows">
 				<?php
 				$url = "cookies.json";
 				$conselhos = json_decode(file_get_contents($url));
